@@ -1,0 +1,20 @@
+[
+	{ "key": "7", "keyType": "normal", "span": 1 },
+	{ "key": "8", "keyType": "normal", "span": 1 },
+	{ "key": "9", "keyType": "normal", "span": 1 },
+	{ "key": "DEL", "keyType": "operative", "span": 1 },
+	{ "key": "4", "keyType": "normal", "span": 1 },
+	{ "key": "5", "keyType": "normal", "span": 1 },
+	{ "key": "6", "keyType": "normal", "span": 1 },
+	{ "key": "+", "keyType": "normal", "span": 1 },
+	{ "key": "1", "keyType": "normal", "span": 1 },
+	{ "key": "2", "keyType": "normal", "span": 1 },
+	{ "key": "3", "keyType": "normal", "span": 1 },
+	{ "key": "-", "keyType": "normal", "span": 1 },
+	{ "key": ".", "keyType": "normal", "span": 1 },
+	{ "key": "0", "keyType": "normal", "span": 1 },
+	{ "key": "/", "keyType": "normal", "span": 1 },
+	{ "key": "*", "keyType": "normal", "span": 1 },
+	{ "key": "RESET", "keyType": "operative", "span": 2 },
+	{ "key": "=", "keyType": "equals", "span": 2 }
+]
