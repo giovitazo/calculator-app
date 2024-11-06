@@ -14,7 +14,7 @@ function Key({ keyItem, handleInput }: KeyProps) {
 	const spanClass = "col-span-" + keyItem.span;
 
 	return (
-		<button className={`key ${keyTypeClass} ${spanClass}`} onClick={() => handleInput} data-type={keyItem.keyType}>
+		<button className={`key ${keyTypeClass} ${spanClass}`} onClick={handleInput} data-type={keyItem.keyType}>
 			{keyItem.key}
 		</button>
 	);

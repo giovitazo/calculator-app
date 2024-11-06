@@ -5,7 +5,7 @@ import Screen from "./elements/Screen";
 import { evaluate } from "mathjs";
 
 function App() {
-	const [input, setInput]: [string, Function] = useState("");
+	const [input, setInput]: [string, Function] = useState("s");
 	const handleInput = (e: React.MouseEvent<HTMLButtonElement>) => {
 		switch (e.currentTarget.getAttribute("data-type")) {
 			case "normal":
