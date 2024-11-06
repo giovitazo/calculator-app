@@ -1,4 +1,3 @@
-import React from "react";
 import keyList from "../assets/keyList.json";
 import Key from "../elements/Key";
 
@@ -6,7 +5,7 @@ interface KeyboardProps {
 	handleInput: Function; // Adjust this type if you expect a specific set of string values
 }
 
-function Keyboard({ handleInput }) {
+function Keyboard({ handleInput }: KeyboardProps) {
 	return (
 		<div id="keyboard" className="keyboard w-full">
 			{keyList.map((item) => {

@@ -1,6 +1,8 @@
-import React from "react";
+interface ScreenProps {
+	input: string;
+}
 
-function Screen({ input }) {
+function Screen({ input }: ScreenProps) {
 	return (
 		<div id="screen" className="screen w-full">
 			<p id="output" className="output">

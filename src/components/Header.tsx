@@ -1,4 +1,3 @@
-import React from "react";
 import ThemeSelector from "../elements/ThemeSelector";
 
 export default function Header() {

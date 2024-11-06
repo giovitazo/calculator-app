@@ -5,9 +5,9 @@ import Screen from "./elements/Screen";
 import { evaluate } from "mathjs";
 
 function App() {
-	const [input, setInput] = useState("");
+	const [input, setInput]: [string, Function] = useState("");
 	const handleInput = (e: React.MouseEvent<HTMLButtonElement>) => {
-		switch (e.currentTarget.getAttribute("type")) {
+		switch (e.currentTarget.getAttribute("data-type")) {
 			case "normal":
 				if (input != "error") {
 					setInput(input + e.currentTarget.innerText);
@@ -32,6 +32,7 @@ function App() {
 				break;
 		}
 	};
+
 	return (
 		<>
 			<Header />
